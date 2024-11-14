@@ -30,6 +30,7 @@ class Parser:
         self.__op = webdriver.ChromeOptions()
         self.__op.add_argument('--no-sandbox')
         self.__op.add_argument('--disable-dev-shm-usage')
+        self.__op.add_argument("--headless=new")
         self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=self.__op)
         self.wait = WebDriverWait(self.driver, 20)
         self.BASE_URL = 'https://dedust.io/pools'
@@ -54,9 +55,7 @@ class Parser:
                 )
             )
             view_all_button.click()
-
-            time.sleep(10)
-
+            logger.info("click view all")
             pools_data = []
             pools = self.driver.find_elements(By.CLASS_NAME, "app-earn__content-table-row")
 

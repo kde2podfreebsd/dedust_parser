@@ -1,0 +1,138 @@
+2024-11-14 23:16:11,066 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-14 23:16:11,067 - PoolCollector - INFO - Scheduler started
+2024-11-14 23:16:11,067 - apscheduler.scheduler - INFO - Added job "PoolDataCollector.collect_data" to job store "default"
+2024-11-14 23:16:11,068 - apscheduler.scheduler - INFO - Scheduler started
+2024-11-14 23:16:11,068 - apscheduler.executors.default - INFO - Running job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:16:11 MSK)" (scheduled at 2024-11-14 23:16:11.066297+03:00)
+2024-11-14 23:16:11,069 - WDM - INFO - ====== WebDriver manager ======
+2024-11-14 23:16:11,490 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:16:11,710 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:16:11,915 - WDM - INFO - There is no [linux64] chromedriver "131.0.6778.69" for browser google-chrome "131.0.6778" in cache
+2024-11-14 23:16:11,916 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:16:12,449 - WDM - INFO - WebDriver version 131.0.6778.69 selected
+2024-11-14 23:16:12,456 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.69/linux64/chromedriver-linux64.zip
+2024-11-14 23:16:12,456 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.69/linux64/chromedriver-linux64.zip
+2024-11-14 23:16:12,598 - WDM - INFO - Driver downloading response is 200
+2024-11-14 23:16:13,023 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:16:13,438 - WDM - INFO - Driver has been saved in cache [/root/.wdm/drivers/chromedriver/linux64/131.0.6778.69]
+2024-11-14 23:16:14,368 - PoolCollector - ERROR - Error in collect_data: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x564dae3664ca <unknown>
+#1 0x564dade79620 <unknown>
+#2 0x564dadeb0ce8 <unknown>
+#3 0x564dadeac846 <unknown>
+#4 0x564dadef8606 <unknown>
+#5 0x564dadef7c56 <unknown>
+#6 0x564dadeec113 <unknown>
+#7 0x564dadebabe0 <unknown>
+#8 0x564dadebbbbe <unknown>
+#9 0x564dae332e4b <unknown>
+#10 0x564dae336de2 <unknown>
+#11 0x564dae31fd2c <unknown>
+#12 0x564dae337957 <unknown>
+#13 0x564dae3054bf <unknown>
+#14 0x564dae355348 <unknown>
+#15 0x564dae355510 <unknown>
+#16 0x564dae365346 <unknown>
+#17 0x7f1518e51fa3 start_thread
+
+2024-11-14 23:16:14,370 - apscheduler.executors.default - INFO - Job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:21:11 MSK)" executed successfully
+2024-11-14 23:16:29,520 - PoolCollector - INFO - Stopping scheduler...
+2024-11-14 23:16:29,521 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-11-14 23:16:57,724 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-14 23:16:57,725 - PoolCollector - INFO - Scheduler started
+2024-11-14 23:16:57,725 - apscheduler.scheduler - INFO - Added job "PoolDataCollector.collect_data" to job store "default"
+2024-11-14 23:16:57,725 - apscheduler.scheduler - INFO - Scheduler started
+2024-11-14 23:16:57,726 - apscheduler.executors.default - INFO - Running job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:16:57 MSK)" (scheduled at 2024-11-14 23:16:57.724113+03:00)
+2024-11-14 23:16:57,726 - WDM - INFO - ====== WebDriver manager ======
+2024-11-14 23:16:57,798 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:16:58,003 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:16:58,204 - WDM - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/131.0.6778.69/chromedriver-linux64/chromedriver] found in cache
+2024-11-14 23:16:58,335 - PoolCollector - ERROR - Error in collect_data: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x563c7bebe4ca <unknown>
+#1 0x563c7b9d1620 <unknown>
+#2 0x563c7ba08ce8 <unknown>
+#3 0x563c7ba04846 <unknown>
+#4 0x563c7ba50606 <unknown>
+#5 0x563c7ba4fc56 <unknown>
+#6 0x563c7ba44113 <unknown>
+#7 0x563c7ba12be0 <unknown>
+#8 0x563c7ba13bbe <unknown>
+#9 0x563c7be8ae4b <unknown>
+#10 0x563c7be8ede2 <unknown>
+#11 0x563c7be77d2c <unknown>
+#12 0x563c7be8f957 <unknown>
+#13 0x563c7be5d4bf <unknown>
+#14 0x563c7bead348 <unknown>
+#15 0x563c7bead510 <unknown>
+#16 0x563c7bebd346 <unknown>
+#17 0x7fb48527afa3 start_thread
+
+2024-11-14 23:16:58,337 - apscheduler.executors.default - INFO - Job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:21:57 MSK)" executed successfully
+2024-11-14 23:17:00,311 - PoolCollector - INFO - Stopping scheduler...
+2024-11-14 23:17:00,312 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-11-14 23:18:47,243 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-14 23:18:47,243 - PoolCollector - INFO - Scheduler started
+2024-11-14 23:18:47,244 - apscheduler.scheduler - INFO - Added job "PoolDataCollector.collect_data" to job store "default"
+2024-11-14 23:18:47,244 - apscheduler.scheduler - INFO - Scheduler started
+2024-11-14 23:18:47,245 - apscheduler.executors.default - INFO - Running job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:18:47 MSK)" (scheduled at 2024-11-14 23:18:47.243083+03:00)
+2024-11-14 23:18:47,245 - WDM - INFO - ====== WebDriver manager ======
+2024-11-14 23:18:47,333 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:18:47,535 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:18:47,740 - WDM - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/131.0.6778.69/chromedriver-linux64/chromedriver] found in cache
+2024-11-14 23:18:48,727 - PoolCollector - INFO - Starting data collection
+2024-11-14 23:20:55,519 - PoolCollector - ERROR - Error parsing pool: list index out of range
+2024-11-14 23:20:55,533 - PoolCollector - INFO - Data successfully saved
+2024-11-14 23:20:55,690 - apscheduler.executors.default - INFO - Job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:23:47 MSK)" executed successfully
+2024-11-14 23:23:47,245 - apscheduler.executors.default - INFO - Running job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:28:47 MSK)" (scheduled at 2024-11-14 23:23:47.243083+03:00)
+2024-11-14 23:23:47,249 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f208f300a60>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/59bad4a152d34fa4607978f9d033130d
+2024-11-14 23:23:47,250 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f208f300be0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/59bad4a152d34fa4607978f9d033130d
+2024-11-14 23:23:47,250 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f208f300cd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/59bad4a152d34fa4607978f9d033130d
+2024-11-14 23:23:47,253 - WDM - INFO - ====== WebDriver manager ======
+2024-11-14 23:23:47,374 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:23:47,588 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:23:47,797 - WDM - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/131.0.6778.69/chromedriver-linux64/chromedriver] found in cache
+2024-11-14 23:23:48,265 - PoolCollector - INFO - Starting data collection
+2024-11-14 23:25:43,362 - PoolCollector - ERROR - Error parsing pool: list index out of range
+2024-11-14 23:25:43,381 - PoolCollector - INFO - Data successfully saved
+2024-11-14 23:25:43,478 - apscheduler.executors.default - INFO - Job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:28:47 MSK)" executed successfully
+2024-11-14 23:28:47,249 - apscheduler.executors.default - INFO - Running job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:33:47 MSK)" (scheduled at 2024-11-14 23:28:47.243083+03:00)
+2024-11-14 23:28:47,252 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f208f300b20>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0ee36d2f8da192125bd410dc605c70fa
+2024-11-14 23:28:47,254 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f208f1e1160>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0ee36d2f8da192125bd410dc605c70fa
+2024-11-14 23:28:47,255 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f208f1e1130>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0ee36d2f8da192125bd410dc605c70fa
+2024-11-14 23:28:47,256 - WDM - INFO - ====== WebDriver manager ======
+2024-11-14 23:28:47,352 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:28:47,570 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:28:47,773 - WDM - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/131.0.6778.69/chromedriver-linux64/chromedriver] found in cache
+2024-11-14 23:28:48,174 - PoolCollector - INFO - Starting data collection
+2024-11-14 23:30:47,441 - PoolCollector - ERROR - Error parsing pool: list index out of range
+2024-11-14 23:30:47,485 - PoolCollector - INFO - Data successfully saved
+2024-11-14 23:30:47,649 - apscheduler.executors.default - INFO - Job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:33:47 MSK)" executed successfully
+2024-11-14 23:32:02,319 - PoolCollector - INFO - Stopping scheduler...
+2024-11-14 23:32:02,322 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-11-14 23:32:02,326 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f208f300d90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/3c97659a7fc967a1fcf1de35e7e9c528
+2024-11-14 23:32:02,327 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f208f300ca0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/3c97659a7fc967a1fcf1de35e7e9c528
+2024-11-14 23:32:02,328 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f208f1e1910>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/3c97659a7fc967a1fcf1de35e7e9c528
+2024-11-14 23:33:14,494 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-14 23:33:14,495 - PoolCollector - INFO - Scheduler started
+2024-11-14 23:33:14,495 - apscheduler.scheduler - INFO - Added job "PoolDataCollector.collect_data" to job store "default"
+2024-11-14 23:33:14,495 - apscheduler.scheduler - INFO - Scheduler started
+2024-11-14 23:33:14,496 - apscheduler.executors.default - INFO - Running job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:33:14 MSK)" (scheduled at 2024-11-14 23:33:14.494192+03:00)
+2024-11-14 23:33:14,497 - WDM - INFO - ====== WebDriver manager ======
+2024-11-14 23:33:14,609 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:33:14,819 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:33:15,029 - WDM - INFO - Driver [/root/.wdm/drivers/chromedriver/linux64/131.0.6778.69/chromedriver-linux64/chromedriver] found in cache
+2024-11-14 23:33:15,577 - PoolCollector - INFO - Starting data collection
+2024-11-14 23:33:23,066 - PoolCollector - INFO - click view all
+2024-11-14 23:35:05,435 - PoolCollector - ERROR - Error parsing pool: list index out of range
+2024-11-14 23:35:05,479 - PoolCollector - INFO - Data successfully saved
+2024-11-14 23:35:05,568 - apscheduler.executors.default - INFO - Job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:38:14 MSK)" executed successfully
+2024-11-14 23:35:35,464 - PoolCollector - INFO - Stopping scheduler...
+2024-11-14 23:35:35,466 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-11-14 23:35:35,468 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1c1cf02370>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c96b9fbd55506c9c61ef9f67ebd3459e
+2024-11-14 23:35:35,469 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1c1c6e2790>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c96b9fbd55506c9c61ef9f67ebd3459e
+2024-11-14 23:35:35,469 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1c1c6e2970>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c96b9fbd55506c9c61ef9f67ebd3459e
