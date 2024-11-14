@@ -136,3 +136,55 @@ Stacktrace:
 2024-11-14 23:35:35,468 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1c1cf02370>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c96b9fbd55506c9c61ef9f67ebd3459e
 2024-11-14 23:35:35,469 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1c1c6e2790>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c96b9fbd55506c9c61ef9f67ebd3459e
 2024-11-14 23:35:35,469 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1c1c6e2970>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c96b9fbd55506c9c61ef9f67ebd3459e
+2024-11-14 23:41:43,718 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-14 23:41:43,719 - PoolCollector - INFO - Scheduler started
+2024-11-14 23:41:43,719 - apscheduler.scheduler - INFO - Added job "PoolDataCollector.collect_data" to job store "default"
+2024-11-14 23:41:43,719 - apscheduler.scheduler - INFO - Scheduler started
+2024-11-14 23:41:43,719 - apscheduler.executors.default - INFO - Running job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:41:43 MSK)" (scheduled at 2024-11-14 23:41:43.718518+03:00)
+2024-11-14 23:41:43,720 - WDM - INFO - ====== WebDriver manager ======
+2024-11-14 23:41:43,822 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:41:45,230 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:41:46,036 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:41:47,950 - WDM - INFO - WebDriver version 130.0.6723.116 selected
+2024-11-14 23:41:47,952 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.116/mac-arm64/chromedriver-mac-arm64.zip
+2024-11-14 23:41:47,952 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.116/mac-arm64/chromedriver-mac-arm64.zip
+2024-11-14 23:41:48,850 - WDM - INFO - Driver downloading response is 200
+2024-11-14 23:42:01,809 - PoolCollector - INFO - Stopping scheduler...
+2024-11-14 23:42:10,832 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-14 23:42:10,832 - PoolCollector - INFO - Scheduler started
+2024-11-14 23:42:10,833 - apscheduler.scheduler - INFO - Added job "PoolDataCollector.collect_data" to job store "default"
+2024-11-14 23:42:10,833 - apscheduler.scheduler - INFO - Scheduler started
+2024-11-14 23:42:10,833 - apscheduler.executors.default - INFO - Running job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:42:10 MSK)" (scheduled at 2024-11-14 23:42:10.832320+03:00)
+2024-11-14 23:42:10,833 - WDM - INFO - ====== WebDriver manager ======
+2024-11-14 23:42:10,937 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:42:11,908 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:42:13,022 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:42:15,182 - WDM - INFO - WebDriver version 130.0.6723.116 selected
+2024-11-14 23:42:15,185 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.116/mac-arm64/chromedriver-mac-arm64.zip
+2024-11-14 23:42:15,185 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.116/mac-arm64/chromedriver-mac-arm64.zip
+2024-11-14 23:42:15,822 - WDM - INFO - Driver downloading response is 200
+2024-11-14 23:42:41,021 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:42:41,904 - WDM - INFO - Driver has been saved in cache [/Users/kde2podfreebsd/.wdm/drivers/chromedriver/mac64/130.0.6723.116]
+2024-11-14 23:42:43,435 - PoolCollector - INFO - Starting data collection
+2024-11-14 23:42:51,647 - PoolCollector - INFO - click view all
+2024-11-14 23:43:31,565 - PoolCollector - ERROR - Error parsing pool: list index out of range
+2024-11-14 23:43:31,576 - PoolCollector - INFO - Data successfully saved
+2024-11-14 23:43:31,703 - apscheduler.executors.default - INFO - Job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:47:10 MSK)" executed successfully
+2024-11-14 23:47:10,839 - apscheduler.executors.default - INFO - Running job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:52:10 MSK)" (scheduled at 2024-11-14 23:47:10.832320+03:00)
+2024-11-14 23:47:10,845 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101c23ee0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a1101baee94bbb14617a268e0f9da6ec
+2024-11-14 23:47:10,846 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101bacac0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a1101baee94bbb14617a268e0f9da6ec
+2024-11-14 23:47:10,847 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101bac9d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a1101baee94bbb14617a268e0f9da6ec
+2024-11-14 23:47:10,849 - WDM - INFO - ====== WebDriver manager ======
+2024-11-14 23:47:10,964 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:47:11,778 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 23:47:12,699 - WDM - INFO - Driver [/Users/kde2podfreebsd/.wdm/drivers/chromedriver/mac64/130.0.6723.116/chromedriver-mac-arm64/chromedriver] found in cache
+2024-11-14 23:47:14,026 - PoolCollector - INFO - Starting data collection
+2024-11-14 23:47:20,394 - PoolCollector - INFO - click view all
+2024-11-14 23:47:56,217 - PoolCollector - ERROR - Error parsing pool: list index out of range
+2024-11-14 23:47:56,225 - PoolCollector - INFO - Data successfully saved
+2024-11-14 23:47:56,351 - apscheduler.executors.default - INFO - Job "PoolDataCollector.collect_data (trigger: interval[0:05:00], next run at: 2024-11-14 23:52:10 MSK)" executed successfully
+2024-11-14 23:48:01,929 - PoolCollector - INFO - Stopping scheduler...
+2024-11-14 23:48:01,930 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-11-14 23:48:01,935 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101c42760>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/be09108c609e09bffa8cb672881c1395
+2024-11-14 23:48:01,940 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101c42820>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/be09108c609e09bffa8cb672881c1395
+2024-11-14 23:48:01,941 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101c42a00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/be09108c609e09bffa8cb672881c1395

@@ -30,7 +30,7 @@ class Parser:
         self.__op = webdriver.ChromeOptions()
         self.__op.add_argument('--no-sandbox')
         self.__op.add_argument('--disable-dev-shm-usage')
-        self.__op.add_argument("--headless=new")
+        #self.__op.add_argument("--headless=new")
         self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=self.__op)
         self.wait = WebDriverWait(self.driver, 20)
         self.BASE_URL = 'https://dedust.io/pools'
@@ -92,28 +92,19 @@ class PoolDataCollector:
         self.scheduler = BlockingScheduler()
         self.parser = None
 
-    def load_existing_data(self) -> List[Dict]:
-        if os.path.exists(self.output_file):
-            try:
-                with open(self.output_file, 'r') as f:
-                    return json.load(f)
-            except json.JSONDecodeError:
-                return []
-        return []
-
     def save_data(self, data: List[Dict]) -> None:
         try:
-            existing_data = self.load_existing_data()
 
             new_entry = {
                 "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 "pools": data
             }
 
-            existing_data.append(new_entry)
+            data = list()
+            data.append(new_entry)
 
             with open(self.output_file, 'w') as f:
-                json.dump(existing_data, f, indent=4, ensure_ascii=False)
+                json.dump(data, f, indent=4, ensure_ascii=False)
 
             logger.info("Data successfully saved")
         except Exception as e:
