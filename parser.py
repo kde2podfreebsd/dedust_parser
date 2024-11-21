@@ -65,7 +65,7 @@ class Parser:
                     if pool_data[0].text == 'Pair':
                         continue
                     pool_info = {
-                        'name': pool_data[0].text,
+                        'name': pool_data[0].text.replace("\nSTABLE", ""),
                         'tvl': pool_data[1].text,
                         'volume': pool_data[2].text,
                         'fees': pool_data[3].text,
