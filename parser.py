@@ -30,7 +30,7 @@ class Parser:
         self.__op = webdriver.ChromeOptions()
         self.__op.add_argument('--no-sandbox')
         self.__op.add_argument('--disable-dev-shm-usage')
-        #self.__op.add_argument("--headless=new")
+        self.__op.add_argument("--headless=new")
         self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=self.__op)
         self.wait = WebDriverWait(self.driver, 20)
         self.BASE_URL = 'https://dedust.io/pools'
